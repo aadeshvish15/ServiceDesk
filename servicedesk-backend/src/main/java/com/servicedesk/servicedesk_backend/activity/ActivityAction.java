@@ -1,0 +1,20 @@
+package com.servicedesk.servicedesk_backend.activity;
+
+// STEP 1: DEFINE POSSIBLE TICKET ACTIVITY EVENTS
+
+public enum ActivityAction {
+
+    TICKET_CREATED,
+
+    TICKET_ASSIGNED,
+
+    STATUS_CHANGED,
+
+    COMMENT_ADDED,
+
+    INTERNAL_NOTE_ADDED,
+
+    // NEW EVENT: RECORD FIRST PUBLIC RESPONSE
+    FIRST_RESPONSE_RECORDED
+
+}
